@@ -40,7 +40,7 @@ public class L2023112947_7_Test {
     public void testExample1() {
         String s = "dcab";
         List<List<Integer>> pairs = createPairs(new int[][]{{0, 3}, {1, 2}});
-        assertEquals("bacd", solution.smallestStringWithSwaps(s, pairs));
+        assertEquals("bcad", solution.smallestStringWithSwaps(s, pairs));
     }
 
     @Test
